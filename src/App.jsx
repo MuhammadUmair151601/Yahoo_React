@@ -63,6 +63,21 @@
 // import React from 'react'
 
 // const App = () => {
+//   let obj = {name:"m.umair",age:23,city:"pesh"}
+//   return (
+//     <div>
+//      <h1>{obj.name}</h1>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// ******************array of objects used in map method:
+
+// import React from 'react'
+
+// const App = () => {
 //   const arr = [
 //     {name:"ali", age:23, city: "peshawar" },
 //     {name:"adnan", age:23, city: "peshawar" },
