@@ -64,17 +64,17 @@
 
 
 // ********************Props in react js:
-import React from 'react'
+// import React from 'react'
 
-const Sample = ({name,age,city,contact}) => {
-  return (
-    <div>
-      <h1>{name}</h1>
-      <h2>{age}</h2>
-      <h3>{city}</h3>
-      <p>{contact.email}<br></br>{contact.phone}</p>
-    </div>
-  )
-}
+// const Sample = ({name,age,city,contact}) => {
+//   return (
+//     <div>
+//       <h1>{name}</h1>
+//       <h2>{age}</h2>
+//       <h3>{city}</h3>
+//       <p>{contact.email}<br></br>{contact.phone}</p>
+//     </div>
+//   )
+// }
 
-export default Sample
+// export default Sample

@@ -198,11 +198,12 @@
 // ********************creating a button getting liked after clicking:
 
 import React from 'react'
-import Like from './components/Like'
+// import Like from './components/Like'
+import Multiplestates from './components/Multiplestates'
 const App = () => {
   return (
     <div>
-      <Like/>
+      <Multiplestates/>
     </div>
   )
 }
