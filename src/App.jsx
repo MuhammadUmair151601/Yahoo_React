@@ -96,15 +96,101 @@
 // export default App
 
 // **********************Conditional rendering:
-import React from 'react'
-import Sample from './components/Sample'
+// import React from 'react'
+// import Sample from './components/Sample'
 
-const App = () => {
-  return (
-    <div>
-      <Sample/>
-    </div>
-  )
-}
+// const App = () => {
+//   let arr =
+//  [
+//   {
+//     "name": "John Doe",
+//     "age": 28,
+//     "city": "New York",
+//     "contact": {
+//       "email": "john.doe@example.com",
+//       "phone": "+1-555-123-4567"
+//     }
+//   },
+//   {
+//     "name": "Sarah Williams",
+//     "age": 32,
+//     "city": "Los Angeles",
+//     "contact": {
+//       "email": "sarah.williams@example.com",
+//       "phone": "+1-555-987-6543"
+//     }
+//   },
+//   {
+//     "name": "Michael Chen",
+//     "age": 24,
+//     "city": "Chicago",
+//     "contact": {
+//       "email": "michael.chen@example.com",
+//       "phone": "+1-555-222-3344"
+//     }
+//   },
+//   {
+//     "name": "Priya Sharma",
+//     "age": 29,
+//     "city": "Houston",
+//     "contact": {
+//       "email": "priya.sharma@example.com",
+//       "phone": "+1-555-778-9922"
+//     }
+//   },
+//   {
+//     "name": "David Kim",
+//     "age": 35,
+//     "city": "San Francisco",
+//     "contact": {
+//       "email": "david.kim@example.com",
+//       "phone": "+1-555-443-8899"
+//     }
+//   }
+// ]
 
-export default App
+//   return (
+//     <div>
+//       {arr.map((elem,index)=>{
+//         return <Sample key={index} 
+//         name = {elem.name}
+//         age = {elem.age}
+//         city = {elem.city}
+//         contact = {elem.contact}/>
+//       })}
+      
+//     </div>
+//   )
+// }
+
+// export default App
+
+// ***********************State management
+// props are immutable for that state management are introduced:
+// import React, { useState } from 'react'
+
+// const App = () => {
+//   const [count, setcount] = useState(0)
+
+//   const increase = ()=>{
+//     setcount(count+1)
+//   }
+
+//   const decrease = ()=>{
+//     setcount(count-1)
+//   }
+
+//   const reset = ()=>{
+//     setcount(0)
+//   }
+//   return (
+//     <div>
+//       <h1>Count:{count}</h1>
+//       <button onClick={increase}>+</button>
+//       <button onClick={decrease}>-</button>
+//       <button onClick={reset}>Reset</button>
+//     </div>
+//   )
+// }
+
+// export default App
