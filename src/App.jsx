@@ -165,6 +165,7 @@
 
 // export default App
 
+
 // ***********************State management
 // props are immutable for that state management are introduced:
 // import React, { useState } from 'react'
@@ -194,3 +195,16 @@
 // }
 
 // export default App
+// ********************creating a button getting liked after clicking:
+
+import React from 'react'
+import Like from './components/Like'
+const App = () => {
+  return (
+    <div>
+      <Like/>
+    </div>
+  )
+}
+
+export default App
