@@ -33,7 +33,7 @@
 // export default Sample
 
 // Using logical operatior in conditional rendering:
-import React from 'react'
+// import React from 'react'
 
 // const Sample = () => {
 //   let user = true;
@@ -45,3 +45,19 @@ import React from 'react'
 // }
 
 // export default Sample
+
+// import React from 'react'
+// import '../App.css'
+
+// let isvisible = false;
+
+// const Sample = () => {
+//   return (
+//     <div>
+//       <h1>Conditional rendering</h1>
+//       <p className={isvisible ? "visible" : "invisible"}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis laborum rem quaerat laboriosam quibusdam maxime vel? Perferendis ab ipsam temporibus.</p>
+//     </div>
+//   )
+// }
+
+export default Sample
