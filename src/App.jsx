@@ -197,13 +197,26 @@
 // export default App
 // ********************creating a button getting liked after clicking:
 
+// import React from 'react'
+// // import Like from './components/Like'
+// import Multiplestates from './components/Multiplestates'
+// const App = () => {
+//   return (
+//     <div>
+//       <Multiplestates/>
+//     </div>
+//   )
+// }
+
+// export default App
+
 import React from 'react'
-// import Like from './components/Like'
-import Multiplestates from './components/Multiplestates'
+import SimpleForm from './components/SimpleForm'
+
 const App = () => {
   return (
     <div>
-      <Multiplestates/>
+      <SimpleForm></SimpleForm>
     </div>
   )
 }

@@ -22,16 +22,16 @@
 // export default Multiplestates
 
 // ***************Forms in usestate 
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 
-const Multiplestates = () => {
-  const [name, setname] = useState("")
-  return (
-    <div>
-      <input type="text" value={name} onChange={(e)=> setname(e.target.value)}/>
-      <p>Hello, {name}</p>
-    </div>
-  )
-}
+// const Multiplestates = () => {
+//   const [name, setname] = useState("")
+//   return (
+//     <div>
+//       <input type="text" value={name} onChange={(e)=> setname(e.target.value)}/>
+//       <p>Hello, {name}</p>
+//     </div>
+//   )
+// }
 
-export default Multiplestates
+// export default Multiplestates
