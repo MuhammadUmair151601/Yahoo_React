@@ -210,13 +210,24 @@
 
 // export default App
 
-import React from 'react'
-import SimpleForm from './components/SimpleForm'
+// import React from 'react'
+// import Todo from './components/Todo'
+// const App = () => {
+//   return (
+//     <div>
+//     <Todo />
+//     </div>
+//   )
+// }
 
+// export default App
+
+import React from 'react'
+import Samplee from './components/Samplee'
 const App = () => {
   return (
     <div>
-      <SimpleForm></SimpleForm>
+      <Samplee/>
     </div>
   )
 }
